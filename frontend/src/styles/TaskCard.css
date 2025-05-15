@@ -1,0 +1,44 @@
+/* tasks.css */
+.task-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #fff;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.task-info {
+  flex: 1;
+}
+
+.task-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.task-actions .dropdown-container {
+  margin-right: 15px;
+}
+
+.task-actions label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.task-actions .delete-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.task-actions .delete-button:hover {
+  background-color: darkred;
+}

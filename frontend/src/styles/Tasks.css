@@ -1,0 +1,37 @@
+/* tasks.css */
+.task-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #fff;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.task-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.task-actions button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.task-actions button:hover {
+  opacity: 0.8;
+}
+
+.task-actions button:nth-child(1) {
+  background-color: #4caf50; /* Green for restore */
+  color: white;
+}
+
+.task-actions button:nth-child(2) {
+  background-color: #f44336; /* Red for permanent delete */
+  color: white;
+}
